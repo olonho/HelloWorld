@@ -1,0 +1,5 @@
+package = glfw3
+headers = C:/Users/Dominic/KotlinNativeProjects/KotlinMisc/src/main/c_interop/glfw-3.2.1/include/GLFW/glfw3.h
+#headerFilter = glfw3.h
+#staticLibraries = libglfw3.a
+#libraryPaths = C:/Users/Dominic/KotlinNativeProjects/KotlinMisc/src/main/c_interop/glfw-3.2.1/lib-mingw-w64/

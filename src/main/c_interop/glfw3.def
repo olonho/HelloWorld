@@ -1,5 +1,7 @@
 package = glfw3
 headers = GLFW/glfw3.h
-depends = posix
+depends.osx = posix
+depends.mingw = posix windows
 headerFilter = GLFW/glfw3.h
-linkerOpts = -lglfw
+linkerOpts.osx = -lglfw
+linkerOpts.mingw = -lglfw3 -lgdi32

@@ -1,4 +1,4 @@
-//import glfw3.*
+import glfw3.*
 import kotlinx.cinterop.refTo
 import kotlinx.cinterop.toKString
 import platform.posix.*
@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
 	println("Hello, Native World!")
 
 
-//	println(glfwGetVersionString()?.toKString())
+	println(glfwGetVersionString()?.toKString())
 
 	readFile()
 	printDir()

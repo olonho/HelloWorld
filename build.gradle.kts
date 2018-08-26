@@ -3,9 +3,12 @@ plugins {
 }
 
 konanArtifacts {
-	interop("glfw3")
+	interop("glfw3") {
+           compilerOpts("-I/usr/local/include")
+        }
 
 	program("HelloWorld") {
+                linkerOpts("-L/usr/local/lib")
 		libraries {
 			artifact("glfw3")
 		}
